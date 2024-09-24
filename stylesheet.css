@@ -135,3 +135,9 @@ nav ul{
     color:rgb(0, 100, 0)
 }
 
+.podcastlogo{
+    display:flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+}
