@@ -135,10 +135,7 @@ nav ul{
     color:rgb(0, 100, 0)
 }
 
-nav li:first-of-type a{
-    align-items: start;
-    justify-content: left;
-}
+
 
 nav img{
     width: 5em;
