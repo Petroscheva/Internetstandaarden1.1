@@ -133,13 +133,13 @@ nav ul{
 .podcastlogo{
     display:flex;
     flex-direction: row;
-    justify-content:start;
+    justify-content:left;
     align-items: center;
 }
 
 .naampodcast{
     display:flex;
     flex-direction: row;
-    justify-content:start;
+    justify-content:center;
     align-items: center;
 }
