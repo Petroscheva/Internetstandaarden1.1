@@ -43,8 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav{
-    text-align: right;
-    background-color:darkgrey;
+    background-color:hsl(0, 0%, 66%);
     padding: 0.5em;
     width: 100%;
 }
@@ -58,7 +57,7 @@ nav a{
 
 nav a:hover{
     font-weight: bold;
-    background-color:slategrey;
+    background-color:hsl(0,0,33);
     color: red;
 }
 
