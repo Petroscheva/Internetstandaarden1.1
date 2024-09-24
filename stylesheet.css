@@ -1,0 +1,156 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    color:#414141;                  /* Dark gray */
+    background-color:#EEEEEE;       /* light gray */ 
+    font-size: 1.25em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin:0em;
+}
+
+p{
+    text-align: left;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    margin:0.5em;
+}
+
+h1{
+    font-size: 2em;
+    padding:0em 0.25em 0em 0.25em;
+    margin:0em;
+    font-weight:bold;
+    margin-right:auto;
+}
+
+h2{
+    font-size: 1.6em;
+    padding:0.5em 0.25em 0em 0.25em;
+    margin:0em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.2em;
+    padding:0.5em 0.25em 0em 0.25em;
+    margin:0em;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "helvetica", "Arial", sans-serif;
+}
+
+header img{
+    border-radius: 0.25em;
+    display:block;
+    width: 5em;
+}
+
+nav{
+    text-align: right;
+    background-color:darkgrey;
+    padding: 0.5em;
+ 
+}
+
+nav a{
+    color: black;
+    padding:0.5em;
+    font-weight: normal;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    font-weight: bold;
+    background-color:slategrey;
+    color: red;
+}
+
+header{
+    background-color:lightgrey;
+}
+
+footer li:first-of-type{
+    border: 2em black;
+}
+
+footer li{
+    display:inline-block;
+    color:dimgrey;
+}
+
+footer ul{
+    background-color:#414141;
+    list-style-type: none;
+    padding: 1em 2em 1em 0.5em;
+    margin-bottom:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: darkgrey;
+    position:sticky;
+    border: 100vw;
+}
+
+footer a{
+    color: black;
+    padding:0.5em;
+    font-weight: normal;
+}
+
+footer a:hover{
+    font-weight: bold;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-basis: auto;
+    align-items: center;
+    background-color:darkgrey;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.abonneer{
+    border-radius: 1em;
+    background-color:chartreuse;
+    padding:0.5em 0.5em 0.5em 0.5em;
+    margin-right: auto;
+
+}
+
+.abonneer:hover{
+    font-weight: normal;
+    background-color:rgb(1, 225, 1);
+    color:rgb(0, 100, 0)
+}
+
+nav li:first-of-type a{
+    align-items: start;
+    justify-content: left;
+}
+
+.logo{
+    display:block;
+    align-items: start;
+    border-radius: 0.25em;
+    display:block;
+    width: 5em;
+}
+
