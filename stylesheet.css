@@ -42,10 +42,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "helvetica", "Arial", sans-serif;
 }
 
-header img{
+.naam podcast{
     border-radius: 0.25em;
     display:block;
-    width: 5em;
+    width: 30em;
 }
 
 nav{
