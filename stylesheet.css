@@ -60,6 +60,7 @@ nav a{
     padding:0.5em;
     font-weight: normal;
     text-decoration: none;
+    width: 5em;
     }
 
 nav a:hover{

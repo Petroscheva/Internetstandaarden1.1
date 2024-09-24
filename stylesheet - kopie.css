@@ -1,10 +1,10 @@
 *{
-    box-sizing:border-box;
+    box sizing: border-box;
 }
 
 body{
-    color:#414141;                  /* Dark gray */
-    background-color:#EEEEEE;       /* light gray */ 
+    color:#414141;                
+    background-color:#EEEEEE;      
     font-size: 1.25em;
     font-family: "Helvetica", "Arial", sans-serif;
     margin:0em;
@@ -19,7 +19,7 @@ p{
 
 h1{
     font-size: 2em;
-    padding:0.5em 0.25em 0em 0.25em;
+    padding:0em 0.25em 0em 0.25em;
     margin:0em;
     font-weight:bold;
 }
@@ -42,70 +42,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "helvetica", "Arial", sans-serif;
 }
 
-img{
+.naampodcast{
     border-radius: 0.25em;
     display:block;
-    width: 5em;
-}
-
-nav{
-    text-align: right;
-    background-color:darkgrey;
-    padding: 0.5em;
-}
-
-nav a{
-    color: black;
-    padding:0.5em;
-    font-weight: normal;
-    }
-
-nav a:hover{
-    font-weight: bold;
-    background-color:slategrey;
-}
-
-header{
-    background-color:lightgrey;
-}
-
-footer li: first-of-type{
-    border: 2em black;
-}
-
-footer li{
-    display:inline-block;
-    background-color:;
-    color:dimgrey;
-}
-
-footer ul{
-    background-color:#414141;
-    list-style-type: none;
-    padding: 1em 2em 0em 0.5em;
-    margin-bottom:0;
-}
-
-a{
-    text-decoration: none;
-    }
-footer{
-    background-color: darkgrey;
-    position:fixed;
-    bottom:0;
-    width:100%;
-}
-
-footer a{
-    color: black;
-    padding:0.5em;
-    font-weight: normal;
-    }
-
-footer a:hover{
-    font-weight: bold;
-}
-
-.ruimte{
-    height: 5em;
+    width: 30em;
 }
