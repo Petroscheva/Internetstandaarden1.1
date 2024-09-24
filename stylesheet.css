@@ -44,20 +44,22 @@ h1, h2, h3, h4, h5, h6 {
 
 nav{
     background-color:hsl(0, 0%, 66%);
-    padding: 1em,0.5em;
+    padding: 0.5em;
     width: 100%;
 }
 
 nav a{
     color: black;
+    padding:1.5em;
     font-weight: normal;
     text-decoration: none;
     }
 
 nav a:hover{
-    font-weight: bold;
-    background-color:hsl(0,0,33%);
+    font-weight: normal;
+    background-color:hsl(0, 0%, 42%);
     color: red;
+    transition: all 0.5s ease-in-out 0.5s;
 }
 
 footer li:first-of-type{
@@ -112,7 +114,6 @@ nav ul{
     align-items: center;
     list-style-type: none;
     flex-basis: auto;
-    
 }
 
 .abonneer{
@@ -120,7 +121,7 @@ nav ul{
     background-color:chartreuse;
     padding:0.5em 0.5em 0.5em 0.5em;
     margin-right: auto;
-
+    transition: all 0.25s ease-in-out;
 }
 
 .abonneer:hover{
