@@ -130,21 +130,6 @@ nav ul{
     color:rgb(0, 100, 0)
 }
 
-.podcastlogo{
-    display:flex;
-    flex-direction: row;
-    justify-content:left;
-    align-items: center;
-    margin-left: 0;
-}
-
-.naampodcast{
-    display:flex;
-    flex-direction: row;
-    justify-content:left;
-    align-items: center;
-}
-
 .overonsbox{
     display:flex;
     flex-direction: row;
