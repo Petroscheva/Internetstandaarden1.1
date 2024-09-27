@@ -141,5 +141,14 @@ nav ul{
 .naampodcast{
     display:flex;
     flex-direction: row;
-    align-items: left;
+    justify-content:left;
+    align-items: center;
+}
+
+.overonsbox{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    row-gap:1em;
 }
