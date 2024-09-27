@@ -52,7 +52,10 @@ nav a{
     color: black;
     padding:1.5em;
     font-weight: normal;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.2em;
+    text-decoration-color: darkgray;
     }
 
 nav a:hover{
@@ -122,6 +125,7 @@ nav ul{
     padding:0.5em 0.5em 0.5em 0.5em;
     margin-right: auto;
     transition: all 0.25s ease-in-out;
+    text-decoration: none;
 }
 
 .abonneer:hover{
@@ -139,7 +143,7 @@ nav ul{
 }
 
 .overonsbox h2{
-    
+
 }
 
 .overonsbox p{
