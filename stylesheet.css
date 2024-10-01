@@ -161,7 +161,7 @@ section img{
 }
 
 div .overonstekst{
-    padding: 0em 0em 0em 1em;
+    padding: 0em 0em 0em 1.5em;
 }
 
 section ul{
@@ -266,7 +266,6 @@ footer ul{
 
 .copyright ul{
     display:flex;
-    justify-content:left;
     flex-direction: row;
     background-color:#414141;
     color:dimgrey;
@@ -278,7 +277,7 @@ footer ul{
     width:100%;
 }
 
-.copyright li:nth-child(2){
+.copyright li:nth-child(1){
     border: 2em black;
 }
 
@@ -296,4 +295,27 @@ footer ul{
     display:flex;
     flex-wrap: wrap;
     width:100%;
+    
+}
+
+.aflevering{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    border-radius: 1em;
+    padding:0em 0em 0em 0em;
+    width:60em;
+    overflow: hidden;
+}
+
+.aflevering img{
+    width:15em;
+}
+
+.aflevering li a{
+    margin-top: 1em;
+}
+
+.aflevering li {
+    width: 40em;
 }
