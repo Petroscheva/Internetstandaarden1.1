@@ -122,6 +122,8 @@ nav ul{
 main section:first-of-type{
     display:flex;
     justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     margin: 1em 2em;
     width:50%;
@@ -233,6 +235,53 @@ article ul{
     transition:all 250ms ease;
 }
 
+.button:active{
+    transform:scale(0.8);
+    transition:all 250ms ease;
+}
+
+.nuafspelen:active{
+    transform:scale(0.8);
+    transition:all 250ms ease;
+}
+
+.afleveringen{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.aflevering{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1em;
+    padding:0em 0em 0em 0em;
+    width:60em;
+    overflow: hidden;
+}
+
+.aflevering img{
+    width:15em;
+}
+
+.aflevering li a{
+    margin-top: 1em;
+}
+
+.aflevering li {
+    width: 40em;
+}
+
+main div .afleveringen{
+    width:100%;
+}
+
+main .afleveringen img:hover{
+    transform:rotate(360deg);
+    transition:all 250ms ease 300ms;
+}
+
 footer a{
     color: black;
     padding:0.5em;
@@ -279,43 +328,4 @@ footer ul{
 
 .copyright li:nth-child(1){
     border: 2em black;
-}
-
-.button:active{
-    transform:scale(0.8);
-    transition:all 250ms ease;
-}
-
-.nuafspelen:active{
-    transform:scale(0.8);
-    transition:all 250ms ease;
-}
-
-.afleveringen{
-    display:flex;
-    flex-wrap: wrap;
-    width:100%;
-    
-}
-
-.aflevering{
-    display: flex;
-    justify-content: left;
-    background-color: white;
-    border-radius: 1em;
-    padding:0em 0em 0em 0em;
-    width:60em;
-    overflow: hidden;
-}
-
-.aflevering img{
-    width:15em;
-}
-
-.aflevering li a{
-    margin-top: 1em;
-}
-
-.aflevering li {
-    width: 40em;
 }
