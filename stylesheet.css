@@ -60,6 +60,10 @@ header{
     background-color:lightgrey;
 }
 
+header img:first-child{
+    display:block;
+}
+
 nav{
     background-color:darkgrey;
     padding: 0.5em;
@@ -110,12 +114,30 @@ nav ul{
     transition:all 250ms ease;
 }
 
+.flexbox{
+    display:flex;
+}
+
+
 main section:first-of-type{
     display:flex;
     justify-content: left;
     flex-direction: column;
-    margin: 3em;
+    margin: 1em 2em;
+    width:50%;
+    flex-wrap: wrap;
 }
+
+main div section:first-of-type{
+    margin: 1em 2em;
+    width:50%;
+}
+
+main div section:nth-of-type(2){
+    display:flex;
+    justify-content: right;
+    align-items: center;
+} 
 
 section:nth-child(2){
     display:flex;
@@ -134,8 +156,17 @@ article img{
     width: 100%;
 }
 
-.overonstekst{
-    padding: 1em 2em 1em 2em;
+section img{
+    width: 100%;
+}
+
+div .overonstekst{
+    padding: 0em 0em 0em 1em;
+}
+
+section ul{
+    list-style-type: none;
+    padding-left: 0;
 }
 
 article ul{
@@ -181,16 +212,11 @@ article ul{
     padding: 1em 2em 1em 2em;
 }
 
-article ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-
 .nuafspelen{
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 50%;
+    width: 20em;
     padding: 1em;
     background-color: red;
     color: white;
@@ -254,4 +280,20 @@ footer ul{
 
 .copyright li:nth-child(2){
     border: 2em black;
+}
+
+.button:active{
+    transform:scale(0.8);
+    transition:all 250ms ease;
+}
+
+.nuafspelen:active{
+    transform:scale(0.8);
+    transition:all 250ms ease;
+}
+
+.afleveringen{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
 }
