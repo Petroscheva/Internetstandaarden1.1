@@ -167,16 +167,14 @@ article ul{
 .eersteaflevering{
     display: flex;
     justify-content: left;
-    text-align: ;
     background-color: white;
     border-radius: 1em;
-    width: 55em;
+    width: 40em;
     overflow: hidden;
 }
 
 .eersteaflevering img{
     width:10em;
-
 }
 
 .overonstekst{
@@ -209,29 +207,6 @@ article ul{
     transition:all 250ms ease;
 }
 
-footer ul:{
-    display:flex;
-    justify-content: left;
-    flex-direction: row;
-    margin:0;
-
-}
-
-footer li{
-    display:block;
-    color:dimgrey;
-}
-
-.footer ul{
-    display: flex;
-    flex-direction: column;
-    background-color: darkgrey;
-    position: sticky;
-    border: 100%;
-    margin:0;
-
-}
-
 footer a{
     color: black;
     padding:0.5em;
@@ -242,17 +217,41 @@ footer a:hover{
     font-weight: bold;
 }
 
-.copyright ul{
+footer{
+background-color: #414141;
+padding:0em, 0em, 2em,0em;
+}
+
+.row{
     display: flex;
-    justify-content: left;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+footer section:first-of-type{
+    max-width: 100%;
+    background-color: darkgrey;
+    margin:auto;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.copyright ul{
+    display:flex;
+    justify-content:left;
     flex-direction: row;
     background-color:#414141;
+    color:dimgrey;
     list-style-type: none;
     padding: 1em;
     margin:0;
     position: sticky;
+    border: 2em black;
+    width:100%;
 }
 
-.copyright li{
+.copyright li:nth-child(2){
     border: 2em black;
 }
