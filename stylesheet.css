@@ -114,6 +114,11 @@ nav ul{
     transition:all 250ms ease;
 }
 
+.banner{
+    width:100%;
+    max-height:20em;
+}
+
 .flexbox{
     display:flex;
 }
@@ -122,8 +127,6 @@ nav ul{
 main section:first-of-type{
     display:flex;
     justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
     flex-direction: column;
     margin: 1em 2em;
     width:50%;
@@ -146,6 +149,10 @@ section:nth-child(2){
     justify-content: center;
 }
 
+main div section:nth-of-type(2) .nuafspelen{
+    margin-top: 1em;
+}
+
 .artikelen{
     background-color: white;
     border-radius: 1em;
@@ -166,17 +173,17 @@ div .overonstekst{
     padding: 0em 0em 0em 1.5em;
 }
 
-section ul{
+section{
     list-style-type: none;
     padding-left: 0;
 }
 
-article ul{
+article{
     list-style-type: none;
     padding-left: 0;
 }
 
-.button{
+.leesmeer{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -189,7 +196,7 @@ article ul{
     border-radius: 0.5em;
 }
 
-.button:hover{
+.leesmeer:hover{
     font-weight: normal;
     background-color:rgb(184, 0, 0);
     color:white;
@@ -235,7 +242,7 @@ article ul{
     transition:all 250ms ease;
 }
 
-.button:active{
+.leesmeer:active{
     transform:scale(0.8);
     transition:all 250ms ease;
 }
@@ -249,6 +256,8 @@ article ul{
     display:flex;
     flex-wrap: wrap;
     width:100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aflevering{
@@ -265,16 +274,12 @@ article ul{
     width:15em;
 }
 
-.aflevering li a{
+.aflevering a{
     margin-top: 1em;
 }
 
-.aflevering li {
-    width: 40em;
-}
-
-main div .afleveringen{
-    width:100%;
+.aflevering {
+    width: 60em;
 }
 
 main .afleveringen img:hover{
@@ -297,7 +302,7 @@ background-color: #414141;
 padding:0em, 0em, 2em,0em;
 }
 
-.row{
+.rij{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
@@ -313,9 +318,9 @@ footer ul{
     list-style-type: none;
 }
 
-.copyright ul{
+.copyright{
     display:flex;
-    flex-direction: row;
+    justify-content: center;
     background-color:#414141;
     color:dimgrey;
     list-style-type: none;
@@ -324,8 +329,4 @@ footer ul{
     position: sticky;
     border: 2em black;
     width:100%;
-}
-
-.copyright li:nth-child(1){
-    border: 2em black;
 }
