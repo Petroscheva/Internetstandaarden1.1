@@ -6,6 +6,10 @@ a{
     text-decoration: none;
 }
 
+a:focus-visible{
+    background-color: yellow;
+}
+
 body{
     color:#000000;              
     background-color:#EEEEEE;      
@@ -158,10 +162,15 @@ main div section:nth-of-type(2) .nuafspelen{
     display:flex;
     justify-content: left;
     flex-direction: column;
-    margin: 1em 2em;
+    margin: 1em 3em;
     width:50%;
     flex-wrap: wrap;
 }
+
+.overonstekst{
+    padding: 1em 2em 1em 2em;
+}
+
 
 .artikelen{
     background-color: white;
@@ -210,6 +219,11 @@ article{
     transition:all 250ms ease 250ms;
 }
 
+.leesmeer:active{
+    transform:scale(0.8);
+    transition:all 250ms ease;
+}
+
 .eersteaflevering{
     display: flex;
     justify-content: flex-start;
@@ -223,8 +237,12 @@ article{
     width:10em;
 }
 
-.overonstekst{
-    padding: 1em 2em 1em 2em;
+.eersteaflevering img:hover{
+    animation: rotate;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 300ms;
 }
 
 .nuafspelen{
@@ -245,11 +263,6 @@ article{
     background-color:rgb(184, 0, 0);
     color: white;
     transform:scale(1.1);
-    transition:all 250ms ease;
-}
-
-.leesmeer:active{
-    transform:scale(0.8);
     transition:all 250ms ease;
 }
 
@@ -296,13 +309,16 @@ article{
 }
 
 main .afleveringen img:hover{
-    transform:rotate(360deg);
-    transition:all 250ms ease 300ms;
+    animation: rotate;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 300ms;
 }
 
 footer a{
     color: black;
-    padding:0.5em;
+    padding: 0.5em 0.5em 0.5em 0em;
     font-weight: normal;
 }
 
@@ -343,4 +359,18 @@ footer ul{
     position: sticky;
     border: 2em black;
     width:100%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
